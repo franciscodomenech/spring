@@ -9,7 +9,8 @@
 	Hello world!  
 </h1>
 <form method="POST" action="index">
-<input name="nombre" type="text" placeholder="NOMBRE"/>
+<input name="entero" type="number" placeholder="ENTERO"/>
+<input name="texto" type="text" placeholder="TEXTO"/>
 <input type="submit" value="ENVIAR"/>
 </form>
 </body>
