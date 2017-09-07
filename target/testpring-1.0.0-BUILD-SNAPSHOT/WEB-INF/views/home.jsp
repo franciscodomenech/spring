@@ -8,7 +8,10 @@
 <h1>
 	Hello world!  
 </h1>
-
-<P>  The time on the server is ${serverTime}. </P>
+<form method="POST" action="index">
+<input name="entero" type="number" placeholder="ENTERO"/>
+<input name="texto" type="text" placeholder="TEXTO"/>
+<input type="submit" value="ENVIAR"/>
+</form>
 </body>
 </html>
